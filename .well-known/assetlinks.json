@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.vergelabs.qrscanapp",
+      "sha256_cert_fingerprints": [
+        "1C:52:F1:AE:84:04:D9:3E:A2:F4:0B:89:6D:89:6F:9B:6D:63:C4:F8:B6:72:66:AE:6A:7B:13:78:EE:FA:9E:BE",
+        "87:9B:2D:9B:A6:60:2C:D7:46:0F:01:9A:1C:2D:CC:5F:97:5A:EF:B9:7F:8F:77:AA:C6:50:E9:43:31:20:88:7B"
+      ]
+    }
+  }
+]
