@@ -6,16 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript">
         window.onload = function() {
-            //var isAndroid = /android/i.test(navigator.userAgent);
-            //var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-            //if (isAndroid) {
-                // Redirect to the Play Store
-                window.location.href = 'https://www.google.com';
-            //} else if (isiOS) {
-                // Redirect to the App Store
-              //  window.location.href = 'https://apps.apple.com/app/youtube-watch-listen-stream/id544007664';
-            //}
-        }
+            
+                window.location.href = 'https://play.google.com/store/apps/details?id=com.vergelabs.qrscanapp';
+            }
+        
     </script>
 </head>
 <body>
@@ -25,3 +19,13 @@
 </html>
 
 //   "sha256_cert_fingerprints": ["87:9B:2D:9B:A6:60:2C:D7:46:0F:01:9A:1C:2D:CC:5F:97:5A:EF:B9:7F:8F:77:AA:C6:50:E9:43:31:20:88:7B"]
+var isAndroid = /android/i.test(navigator.userAgent);
+            var isWindows = /Windows/i.test(navigator.userAgent);
+            var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isAndroid) {
+                // Redirect to the Play Store
+                window.location.href = 'https://play.google.com/store/apps/details?id=com.vergelabs.qrscanapp';
+            } else if (isiOS) {
+                // Redirect to the App Store
+                window.location.href = 'https://apps.apple.com/app/youtube-watch-listen-stream/id544007664';
+            }
