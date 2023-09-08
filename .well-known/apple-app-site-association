@@ -1,11 +1,13 @@
-
 {
   "applinks": {
-      "apps": [],
-      "details": {
-      "4F8V8BSTM5.com.skanmiapp.skanmiapp":{
-        "paths": ["*","/"]
+    "apps": [],
+    "details": [
+      {
+        "appID": "4F8V8BSTM5.com.skanmiapp.skanmiapp",
+        "paths": [
+          "*"
+        ]
       }
-    }
+    ]
   }
 }
