@@ -6,6 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript">
         window.onload = function() {
+            var isAndroid = /android/i.test(navigator.userAgent);
+            var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isAndroid) {
+                // Redirect to the Play Store
+                window.location.href = 'https://play.google.com/store/apps/details?id=com.vergelabs.qrscanapp';
+            } else if (isiOS) {
+                // Redirect to the App Store
+                window.location.href = 'https://apps.apple.com/app/youtube-watch-listen-stream/id544007664';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>SCANMI Test</h1>
+    <p>This is an example of a website that redirects users to the YouTube app's page on the App Store or Play Store, depending on their device.</p>
+</body>
+</html>
+
+<!-- 
+
+<html>
+<head>
+    <title>SCANMI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        window.onload = function() {
             
                 window.location.href = 'https://qamarkhan1.github.io/'+window.location.href.split('/').pop();
         }
@@ -31,4 +57,4 @@ var isAndroid = /android/i.test(navigator.userAgent);
             } else if (isiOS) {
                 // Redirect to the App Store
                 window.location.href = 'https://apps.apple.com/app/youtube-watch-listen-stream/id544007664';
-            }
+            } -->
